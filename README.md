@@ -3,7 +3,7 @@
 ## Summary
 
 A tic-tac-toe game in Javascript.  I made this game as a project that is part of the Software Engineering immersive course.
-The live demo of this project is available " ".
+The live demo of this project is available "https://naaadaa.github.io/project-1-prompt/ ".
 
 ## How to play the game : 
 
