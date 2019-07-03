@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Indie+Flower|Pacifico'); 
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Patua One';
+}
+body {
+  background-image: url("BACKGROUND.jpg");
+}
+ .test {
+    color:white; 
+    font-size: 50px; 
+    font-family: 'Boogaloo';
+    margin: 40px;
+    text-align: center;
+
+} 
+
+.table{
+  
+    background-color:pink;
+    border-spacing: 5px;
+	  padding: 0px;
+    margin: 10px auto;
+    opacity: 0.6; 
+  
+  }
+  .cell {
+    background-color:white ;
+    border: dotted 2px pink; 
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  .cell:hover{
+  background-color:lightpink; 
+
+  }
+
+  #reload {
+
+  width: 150px;
+  height: 100px;
+  color:pink;
+  margin: 10px auto;
+  border-radius: 12px;
+	display: block;
+  border: none;
+  font-family: 'Boogaloo';
+	background-color :white;
+  font-size: 25px;
+  opacity: 0.7; 
+}
+     
+.p {
+
+  color:white; 
+  font-size: 30px; 
+  font-family: 'Boogaloo';
+  margin: 30px;
+  text-align: center;
+
+}
