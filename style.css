@@ -1,0 +1,150 @@
+
+label{
+font-size: 20px;
+}
+
+  body{
+    margin: 0 ;
+    padding: 0 ;
+    background-image: url(images/thrones3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* overflow: hidden; */
+    text-align: center;
+    }
+  
+  /*-----------------------------*/
+h1{
+
+}
+  /*-----------------------------*/
+.img-title{
+  width: 600px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 16px;
+}
+  /*-----------------------------*/
+  audio {
+    width: 500px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto; 
+    opacity: 0.3;
+}
+  /*-----------------------------*/
+  .container{ 
+    background-color: black;
+    opacity: 0.4;
+    margin: 25px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: 33% 33% 33%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*-----------------------------*/
+  .card{
+    position: relative;
+    background-color :snow;
+    cursor: pointer;
+  }
+  .card::before{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 80px;
+  }
+  .card.x::before{
+   content : url('images/stark.png'); 
+   opacity: 
+
+  } 
+  .card.o::before{
+    content: url('images/lannister.png');
+  }
+
+  /*-----------------------------*/
+  .winner{
+    display: none;
+    overflow: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+    width: 400px;
+    height: 150px;
+    padding: 20px 40px;
+    background-color: rgba(204, 181, 181, 0.575);
+    font-size: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    animation: animate .5s linear;
+
+    
+  
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 0px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /* overflow: auto; Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+  }
+
+
+  
+
+  .winner button{
+    margin-top: 20px;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color : black;
+  }
+
+
+  
+
+#message {
+  font-size: 20px;
+  color: #FFEEDB;
+  margin-top: 10px;
+  z-index: 0 !important;
+}
+
+
+
+.stark {
+  background-image: url('images/stark.png');
+  width: 20px;
+}
+
+
+.lannister{
+  background-image: url('images/lannister.png');
+  width: 20px;
+}
+
